@@ -4,4 +4,6 @@ public interface AbstractFactory {
     IEarphone createEarphone();
 
     IPhone createPhone();
+
+
 }
