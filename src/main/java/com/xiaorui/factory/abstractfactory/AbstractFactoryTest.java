@@ -9,6 +9,7 @@ public class AbstractFactoryTest {
         IPhone sonyPhone = sonyFactory.createPhone();
 
         IEarphone miEearphone = miFactory.createEarphone();
+
         IPhone miPhone = miFactory.createPhone();
 
         sonyEarphone.operation();
@@ -16,5 +17,5 @@ public class AbstractFactoryTest {
 
         miEearphone.operation();
         miPhone.operation();
-    }
+        }
 }
